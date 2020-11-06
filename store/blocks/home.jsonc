@@ -6,7 +6,8 @@
       "info-card#button-left",
       "flex-layout.row",
       "info-card#rethink",
-      "flex-layout.col"
+      "flex-layout.col",
+      "shelf"
       ]
   },
 
