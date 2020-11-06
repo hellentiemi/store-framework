@@ -68,7 +68,9 @@
 
   "sku-selector": {
     "props": {
-      "hideImpossibleCombinations": false
+      "link": {
+        "url": "/3-colors-retro-stand-mixer/p"
+      } 
     }
   }
 }
