@@ -14,7 +14,6 @@
          }
         }
     },
-
     "product-summary.shelf": {
         "children": [
           "product-summary-image",
