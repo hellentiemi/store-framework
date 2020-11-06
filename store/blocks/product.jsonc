@@ -68,10 +68,9 @@
 
   "sku-selector": {
     "props": {
-      "link": {
-        "url": "/3-colors-retro-stand-mixer/p"
-      },
-      "hideImpossibleCombinations": false
+      "initialSelection": "empty",
+      "showValueForVariation": "image",
+      "showVariationsErrorMessage": true
     }
   }
 }
