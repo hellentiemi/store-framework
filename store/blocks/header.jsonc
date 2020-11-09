@@ -21,35 +21,12 @@
         ]
       },
     
-      "header-row#menu": {
-        "children": [
-          "header-spacer",
-          "vtex.menu@2.x:menu#categories",
-          "header-spacer"
-        ]
-      },
-      
-      "header-layout.mobile": {
-        "children": [
-          "header-row#notification",
-          "header-row#main-mobile",
-          "header-row#search"
-        ]
-      },
-
-    "header-row#notification": {
+      "header-row#notification": {
         "children": [
           "header-spacer",
           "rich-text#header",
           "header-spacer"
         ]
-      },
-
-      "rich-text#header": {
-        "props": {
-          "text": "**Free Shipping on orders over $50**",
-          "textPosition": "CENTER"
-        }
       },
 
       "header-row#main": {
@@ -66,6 +43,29 @@
           "inverted":true,
           "fullWidth": false
         }
+      },
+
+      "header-row#menu": {
+        "children": [
+          "header-spacer",
+          "vtex.menu@2.x:menu#categories",
+          "header-spacer"
+        ]
+      },
+      
+      "rich-text#header": {
+        "props": {
+          "text": "**Free Shipping on orders over $50**",
+          "textPosition": "CENTER"
+        }
+      },
+
+      "header-layout.mobile": {
+        "children": [
+          "header-row#notification",
+          "header-row#main-mobile",
+          "header-row#search"
+        ]
       },
 
       "header-row#main-mobile": {
