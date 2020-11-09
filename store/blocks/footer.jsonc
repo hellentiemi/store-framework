@@ -24,11 +24,13 @@
         ]
     },
     "accepted-payment-methods":{
-        "blocks": [
+        "props": {
+            "paymentMethods": [
             "MasterCard",
             "Visa",
             "Diners Club"
-        ]
+            ]
+        }
     },
     "flex-layout.col#footer-right-desktop": {
         "children": [
@@ -36,11 +38,12 @@
         ]
     },
     "social-networks":{
-        "blocks": [
-            "Facebook",
-            "Instagram",
-            "Twitter"
-        ]
-    }
-
-  }
+        "props": {
+            "socialNetworks": [
+                "Facebook",
+                "Instagram",
+                "Twitter"
+            ]
+          }
+        }
+}
