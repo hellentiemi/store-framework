@@ -140,7 +140,7 @@
         "orientation": "horizontal"
       }
     },
-    "vtex.menu@2.x:submenu#major":{
+    "vtex.menu@2.x:submenu#major-appliances":{
       "children":[
         "vtex.menu@2.x::menu-item#major-appliances"
       ]
@@ -156,9 +156,9 @@
         "orientation": "vertical"
       }
     },
-    "vtex.menu@2.x:submenu#small":{
+    "vtex.menu@2.x:submenu#small-appliances":{
       "children":[
-        "vtex.menu@2.x:menu-item#small-appliancesl"
+        "vtex.menu@2.x:menu-item#small-appliances"
       ]
     },
     "vtex.menu@2.x:menu-item#small-appliances": {
