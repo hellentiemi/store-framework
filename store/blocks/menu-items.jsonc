@@ -142,7 +142,7 @@
     },
     "vtex.menu@2.x:submenu#major":{
       "children":[
-        "vtex.menu@2.x:menu#major"
+        "vtex.menu@2.x::menu-item#major-appliances"
       ]
     },
     "vtex.menu@2.x:menu-item#major-appliances": {
@@ -158,7 +158,7 @@
     },
     "vtex.menu@2.x:submenu#small":{
       "children":[
-        "vtex.menu@2.x:menu#small"
+        "vtex.menu@2.x:menu-item#small-appliancesl"
       ]
     },
     "vtex.menu@2.x:menu-item#small-appliances": {
@@ -174,7 +174,7 @@
     },
     "vtex.menu@2.x:submenu#electronics":{
       "children":[
-        "vtex.menu@2.x:menu#electronics"
+        "vtex.menu@2.x:menu-item#electronics"
       ]
     },
     "vtex.menu@2.x:menu-item#electronics": {
