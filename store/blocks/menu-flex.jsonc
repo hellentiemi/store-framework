@@ -1,7 +1,20 @@
 {
     "vtex.menu@2.x:submenu#major": {
         "children": [
-            "flex-layout.row#major",
+            "flex-layout.row#major"
+        ]
+    },
+
+    
+    "flex-layout.row#major": {
+        "children": [
+          "flex-layout.col#menu",
+          "flex-layout.col#img"
+        ]
+    },
+
+    "flex-layout.col#menu": {
+        "children": [
             "vtex.menu@2.x:menu#major"
         ]
     },
@@ -14,13 +27,6 @@
             "menu-item#refrigerators",
             "menu-item#ovens",
             "menu-item#washers"
-        ]
-    },
-
-    "flex-layout.row#major": {
-        "children": [
-          "flex-layout.col#menu",
-          "flex-layout.col#img"
         ]
     },
 
